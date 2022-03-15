@@ -40,7 +40,7 @@ Axios.get('/user?ID=12345')
   );
 
 // Optionally the request above could also be done as
-Axios.get('/user?ID=12345'), {
+Axios.get('/user'), {
     params: {
       ID: 12345
     }
